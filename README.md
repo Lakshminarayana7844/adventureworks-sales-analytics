@@ -37,9 +37,9 @@ The main goal is to understand revenue, orders, customers and regional trends.
 - Total Customers = DISTINCTCOUNT(fact_sales[CustomerKey])
 - Total Quantity = SUM(fact_sales[OrderQuantity])
 
-## Report Pages
+## Report Page
 
-### 1. Sales Overview
+### Sales Overview
 
 Main KPIs and visuals:
 - Cards: Total Orders, Total Quantity, Total Customers, Total Revenue
@@ -48,14 +48,8 @@ Main KPIs and visuals:
 - Bar chart: Category sales
 - Models chart: top bike models
 - Donut: returns overview
+![sales_overview_dashboard](https://github.com/user-attachments/assets/566a75b9-40a3-4171-8231-1a0dca173ca4)
 
-(You can add a small image of the dashboard here.)
-
-## How to Use
-
-1. Download the `.pbix` file from `/powerbi`.
-2. Open it in Power BI Desktop (version X or newer).
-3. Use slicers (Year, Region, Category) to explore the report.
 
 ## What I Learned
 
